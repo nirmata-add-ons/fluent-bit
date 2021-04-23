@@ -9,7 +9,7 @@ Fluent Bit is a completely open source Log Processor and Forwarder which allows 
 
 ### How do I get set up?
 1. Clone this repository or add its contents to your own private Git repository.
-2. Create a Nirmata catalog application with a Git upstream and select the fluent-bit repository. You can optionally select the kustomization (see below.)
+2. Create a Nirmata catalog application with a Git upstream and select the fluent-bit repository. You can optionally select the kustomization.
 3. Edit the catalog application and select an add-on category (e.g. Logging). This is required to select the application as a add-on.
 4. Update a Cluster Type, or create a new one, and select the Istio add-on application in the "Add-Ons" section.
 5. Create clusters using the cluster type.
